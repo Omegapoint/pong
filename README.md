@@ -3,9 +3,9 @@ Text based pong game controlled by an arduino with attached potentiometers an pu
 The arduino is connected to the computer using an USB cable (Serial interface). Commands from the potentiometers and pushbuttons are sent to the computer using the Pong protocol
 
 The Pong protocol consists of:
-<player>'¤'<action>'¤'<argument>'\n'
-<player> might be '0' or '1'
-<action> might be 'padl' or 'fire'
-<argument> in case of <action>='padl' - a digit 0-1023
-<argument> in case of <action>='fire' - 'up' or 'dn'
+&lt;player&gt;'¤'&lt;action&gt;'¤'&lt;argument&gt;'\n'
+&lt;player&gt; might be '0' or '1'
+&lt;action&gt; might be 'padl' or 'fire'
+&lt;argument&gt; in case of &lt;action&gt;='padl' - a digit 0-1023
+&lt;argument&gt; in case of &lt;action&gt;='fire' - 'up' or 'dn'
  
