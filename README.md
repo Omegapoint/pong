@@ -10,7 +10,7 @@ The Pong protocol consists of:
 
 ```<action>``` might be 'padl' or 'fire'
 
-```<argument>``` in case of ```<action>```='padl' - a digit 0-1023
+```<argument>``` in case of ```<action>```='PADL' - a digit 0-1023
 
-```<argument>``` in case of ```<action>```='fire' - 'up' or 'dn'
+```<argument>``` in case of ```<action>```='FIRE' - 'UP' or 'DN'
  
