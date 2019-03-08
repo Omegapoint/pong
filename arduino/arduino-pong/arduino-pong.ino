@@ -35,8 +35,8 @@ Player player2 {
 };
 
 void update(Player *const player);
-void outputStr(int id, char *event, char *value);
-void outputInt(int id, char *event, int value);
+void outputStr(int id, const char *event, const char *value);
+void outputInt(int id, const char *event, int value);
 void outputFireEvent(Player *const player);
 void outputPositionEvent(Player *const player);
 
@@ -54,7 +54,7 @@ void update(Player *const player) {
   }
 }
 
-void outputInt(int id, char *event, int value) {
+void outputInt(int id, const char *event, int value) {
   Serial.print(id, HEX);
   Serial.print(SEPARATOR);
   Serial.print(event);
@@ -62,7 +62,7 @@ void outputInt(int id, char *event, int value) {
   Serial.println(value);
 }
 
-void outputStr(int id, char *event, char *value) {
+void outputStr(int id, const char *event, const char *value) {
   Serial.print(id, HEX);
   Serial.print(SEPARATOR);
   Serial.print(event);
